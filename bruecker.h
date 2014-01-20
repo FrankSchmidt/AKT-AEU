@@ -17,44 +17,43 @@ struct sLast
 	float dDruck_F;
 } sLasten;
 
-class CBrueBer
+struct sBrueckBer
 {
+//public:
+//	sBrueBer();
 
-public:
-	CBrueBer();
+//	void InputBruecke();
+/*	void InputDrehmomente;
+	void InputPunktlasten;
+	void InputVierecklasten;
+	void InputDreiecklasten;
+	void InputTrapezlasten;
 
-	void InputBruecke();
-	void InputDrehmomente();
-	void InputPunktlasten();
-	void InputVierecklasten();
-	void InputDreiecklasten();
-	void InputTrapezlasten();
+	float InputPosition;
+	float InputDruck;
+	char InputLastArt;
+	float InputLastBeginn;
+	float InputLastEnde;
+	float InputLastLinks;
+	float InputLastRechts;
 
-	float InputPosition();
-	float InputDruck();
-	char InputLastArt();
-	float InputLastBeginn();
-	float InputLastEnde();
-	float InputLastLinks();
-	float InputLastRechts();
-
-	void OutputLastenInfo();
-	void BerechneLasten();
-	void LoadDefault();
-	void Clear();
-
-private:
+	void OutputLastenInfo;
+	void BerechneLasten;
+	void LoadDefault;
+	void Clear;
+*/
+//private:
 	float fBLength;
 	float fPGleit;
 	float fPFest;
 	float fDistFestGleit;
-	float fWinfelFest;
+	float fWinkelFest;
 	float fWinkelGleit;
 
 	float fDML;
-	char fDML_DR;
+	int fDML_DR;
 	float fDMR;
-	char fDMR_DR;
+	int fDMR_DR;
 
-	vector<sLasten> vecLasten;
+//	vector<sLasten> vecLasten;
 };
